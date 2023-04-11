@@ -1,0 +1,507 @@
+<html>
+
+<head>
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="scss/main.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+
+    <script src="https://kit.fontawesome.com/74c0664cf3.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="main-container">
+        <div>
+            <div class="split-panel">
+                <div class="fantNavBarFixed">
+                    <!--  -->
+                    <div class="row-container">
+                        <div class="section-left">
+                            <a class="header-action light-mode">
+                                <i class="fa-solid fa-arrow-left-long bckIcon"></i>
+                            </a>
+                        </div>
+                        <div class="section-middle">
+                            <span class="teamTitle">my team</span>
+                        </div>
+                        <div xs="2" class="section-right">
+                            <div class="fantasyCountmeter">1h 26m left</div>
+                            <i class="fa-regular fa-circle-question fantasyHelpIcon"></i>
+                        </div>
+                    </div>
+                    <!--  -->
+                </div>
+                <div class="fantasyContainerFixture">
+                    <div class="fantPanelContainer">
+                        <div class="fantasyTeamV">
+                            <ul>
+                                <li>
+                                    <div class="fantasyTeamRow">
+                                        <div class="option-icon-container">
+                                            <img src="img/countries/india.png" alt="india">
+                                        </div>
+                                        <div class="option-name-container">
+                                            <span class="teamName">India</span>
+                                        </div>
+                                        <div class="option-right-container">
+                                            <span class="teamSelected selectedEven">4</span>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="fantasyTeamRow">
+                                        <div class="option-icon-container">
+                                            <img src="img/countries/nz.png" alt="new-zealand">
+                                        </div>
+                                        <div class="option-name-container">
+                                            <span class="teamName">new zealand</span>
+                                        </div>
+                                        <div class="option-right-container">
+                                            <span class="teamSelected selectedOdd">3</span>
+                                        </div>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="fantasyTeamInfoGuide">
+                            <div class="fantasyTeamInfoRow">
+                                <div class="splitFantasyInfo-left">
+                                    <div class="infoCredit">
+                                        <div class="creditDetailsTeam">
+                                            <span>45</span>
+                                            credit left
+                                        </div>
+                                        <div class="fantasyRangerBar">
+                                            <i class="activeSelected" style="width: 65%;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="splitFantasyInfo-middle">
+                                    <div class="infoCredit">
+                                        <div class="creditDetailsTeam">
+                                            <span>7/11</span>
+                                            players
+                                        </div>
+                                        <div class="fantasyRangerBar">
+                                            <i class="activeSelected" style="width: 85%;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="splitFantasyInfo-right">
+                                    <ul class="tabToggleSwitch">
+                                        <li class="options-item active" rel="tab1">
+                                            <div class="optionsItemsContainers">
+                                                <div class="option-icon-container">
+                                                    <i class="fa-regular fa-rectangle-list"></i>
+                                                </div>
+                                                <div class="option-name-container">
+                                                    <div class="option-name">list</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="options-item" rel="tab2">
+                                            <div class="optionsItemsContainers">
+                                                <div class="option-icon-container">
+                                                    <span class="pitchIcon"></span>
+                                                </div>
+                                                <div class="option-name-container">
+                                                    <div class="option-name">pitch</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="fantasyTeamInfoRow">
+
+                                <div class="fantasyTeamInfoFixtureDetails tab-slider--container">
+                                    <div id="tab1" class="tab-slider--body">
+                                        <div class="fixtureTeamfantasySelection">
+                                            <table class="table primary-table">
+                                                <thead>
+                                                    <tr class="roster-player-row ">
+                                                        <th class="player-td player-item-large ">Players</th>
+                                                        <th class="text-center salary-td player-item-salary">points</th>
+                                                        <th class="text-center salary-td player-item-salary">credits</th>
+                                                        <th class="text-right-ltr btn-roster-td wid-50 player-item-salary">&nbsp;</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action added">
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action ">
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action added">
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action ">
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action added">
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action ">
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action added">
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action ">
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action added">
+                                                                <i class="fa-solid fa-minus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="roster-player-row ">
+                                                        <td class="player-td player-item-large ">
+                                                            <div class="playerRow">
+                                                                <div class="playerTshirtImg">
+                                                                    <img src="img/indTshirt.png" alt="">
+                                                                </div>
+                                                                <div class="playerNameTeam">
+                                                                    <div class="playersNameDisplay">
+                                                                        V Kohli
+                                                                    </div>
+                                                                    <div class="playerWhichCountry">
+                                                                        IND
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">858.5</div></td>
+                                                        <td class="text-center salary-td player-item-salary"><div class="roster-player-salary">8.5</div></td>
+                                                        <td class="text-right-ltr btn-roster-td wid-50 player-item-salary">
+                                                            <a class="btn-roster-action ">
+                                                                <i class="fa-solid fa-plus"></i>
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div id="tab2" class="tab-slider--body">
+                                        <!--  -->
+                                        <div class="my-team-field-view-container cricket-ground-container">
+                                            <div class="player-area full-height">
+                                                <div class="space-evenly-container">
+                                                    <div class="player-position-row-parent">
+                                                        <div class="position-name">Wicket Keeper</div>
+                                                        <div class="player-position-row">
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/indTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">Y Kaleem</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹8.5</div></div>
+                                                            </div>
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/nzTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">F Ali</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹8</div></div>
+                                                            </div>
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/nzTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">M Kashif-II</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹6</div></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="player-position-row-parent">
+                                                        <div class="position-name">Batsman</div>
+                                                        <div class="player-position-row">
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/indTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">A Mumtaz</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹7</div></div>
+                                                            </div>
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/indTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">B Hameed</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹7</div></div>
+                                                            </div>
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/indTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">W Muhammad</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹5.5</div></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="player-position-row-parent">
+                                                        <div class="position-name">All Rounder</div>
+                                                        <div class="player-position-row">
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/nzTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">M Saghir Khan</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹8.5</div></div>
+                                                            </div>
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/nzTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">M Zameer-I</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹6.5</div></div>
+                                                            </div>
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/nzTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">M Haider-I</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹7</div></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="player-position-row-parent">
+                                                        <div class="position-name">Bowler</div>
+                                                        <div class="player-position-row">
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/indTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">V Sukumaran</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹6.5</div></div>
+                                                            </div>
+                                                            <div class="player-row-container">
+                                                                <img class="myteam-player-jersey" alt="" src="img/indTshirt.png" />
+                                                                <span class="c-style">C</span>
+                                                                <div class="player-name extra-widths">S Khan</div>
+                                                                <div class="bottom-container extra-widths"><div class="player_salary">₹7</div></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <!--  -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script language="JavaScript" type="text/javascript">
+                                $("document").ready(function(){
+                                $(".tab-slider--body").hide();
+                                $(".tab-slider--body:first").show();
+                                });
+
+                                $(".tabToggleSwitch li").click(function() {
+                                $(".tab-slider--body").hide();
+                                var activeTab = $(this).attr("rel");
+                                $("#"+activeTab).fadeIn();
+                                    if($(this).attr("rel") == "tab2"){
+                                        $('.tabToggleSwitch').addClass('slide');
+                                    }else{
+                                        $('.tabToggleSwitch').removeClass('slide');
+                                    }
+                                $(".tabToggleSwitch li").removeClass("active");
+                                $(this).addClass("active");
+                                });
+
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
